@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       min = value
     end
   end
-  minhash.push(value)
+  minhash.push()
   minhash[0]
 end
 binding.pry
