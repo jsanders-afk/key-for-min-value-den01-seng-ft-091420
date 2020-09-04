@@ -9,7 +9,7 @@ binding.pry
 def key_for_min_value(name_hash)
   minhash = []
   name_hash.each do |key, value|
-  min = value
+  
   
     if value < min
       min = value
