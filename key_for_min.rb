@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if value < min
          min = value
-         keymin.push(key)
+         keymin.push(key.to_s)
     end
   end
   keymin[0]
