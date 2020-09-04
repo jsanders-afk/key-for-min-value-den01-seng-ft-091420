@@ -10,9 +10,10 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if value < min
       min = value
+      key = keymin
     end
   end
-  minhash.push()
+  minhash.push(keymin)
   minhash[0]
 end
 binding.pry
